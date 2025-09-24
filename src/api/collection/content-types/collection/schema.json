@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "collections",
+  "info": {
+    "singularName": "collection",
+    "pluralName": "collections",
+    "displayName": "Collection"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "perfumes": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::perfume.perfume",
+      "mappedBy": "collection"
+    },
+    "name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

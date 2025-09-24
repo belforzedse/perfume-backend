@@ -1,0 +1,627 @@
+[
+  {
+    "brand": "Xerjoff",
+    "collection": "Casamorati",
+    "name_en": "Mefisto",
+    "name_fa": "مفیستو",
+    "gender": "Male",
+    "season": "Warm seasons",
+    "family": "Aromatic Fruity",
+    "character": "Cool and Spicy",
+    "notes": {
+      "top": ["Lemon", "Grapefruit", "Bergamot"],
+      "middle": ["Iris", "Lavender", "Rose"],
+      "base": ["Cedar", "Sandalwood", "Amber", "Musk"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": "Casamorati",
+    "name_en": "Gran Ballo",
+    "name_fa": "گرن بالو",
+    "gender": "Female",
+    "season": "Warm seasons",
+    "family": "Floral Fruity",
+    "character": "Sweet",
+    "notes": {
+      "top": ["Caramel"],
+      "middle": ["Jasmine", "Honeysuckle", "Gardenia"],
+      "base": ["Vanilla", "Amber"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": "Casamorati",
+    "name_en": "Lira",
+    "name_fa": "لیرا",
+    "gender": "Female",
+    "season": "Cool & moderate seasons",
+    "family": "Oriental Floral",
+    "character": "Soft & Sweet",
+    "notes": {
+      "top": ["Blood Orange", "Bergamot", "Lavender"],
+      "middle": ["Jasmine", "Cinnamon", "Licorice"],
+      "base": ["Vanilla", "Caramel", "Musk"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": "Casamorati",
+    "name_en": "Bouquet Idéale",
+    "name_fa": "ایده آل بوکت",
+    "gender": "Female",
+    "season": "Cold seasons",
+    "family": "Woody Oriental",
+    "character": "Warm & Spicy",
+    "notes": {
+      "top": ["Cinnamon", "Nutmeg"],
+      "middle": ["Papyrus", "Cedar", "Guaiac Wood", "Sandalwood"],
+      "base": ["Tobacco Blossom", "Coumarin", "Vanilla", "Musk"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": "Casamorati",
+    "name_en": "La Tosca",
+    "name_fa": "لاتوسکا",
+    "gender": "Female",
+    "season": "All seasons",
+    "family": "Mediterranean Floral",
+    "character": "Sweet",
+    "notes": {
+      "top": ["Mandarin", "Key Lime"],
+      "middle": ["Sweet Violet Leaf", "Eucalyptus", "Bulgarian Rose"],
+      "base": ["Vanilla", "Amber", "Musk", "Patchouli"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": null,
+    "name_en": "1888",
+    "name_fa": "۱۸۸۸",
+    "gender": "Unisex",
+    "season": "Cold seasons",
+    "family": "Woody Oriental",
+    "character": "Warm & Sweet",
+    "notes": {
+      "top": ["Clove", "Coriander", "Black Pepper", "Saffron"],
+      "middle": ["Neroli", "Rose", "Ylang-Ylang"],
+      "base": ["Birch", "Patchouli", "Sandalwood", "Amber"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": null,
+    "name_en": "Naxos",
+    "name_fa": "ناکسوس",
+    "gender": "Unisex",
+    "season": "Cold seasons",
+    "family": "Aromatic Spicy",
+    "character": "Warm & Sweet",
+    "notes": {
+      "top": ["Lemon", "Lime", "Lavender"],
+      "middle": ["Cinnamon", "Cashmere Accord", "Honey", "Jasmine Sambac"],
+      "base": ["Vanilla", "Tonka Bean", "Tobacco Leaf"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": null,
+    "name_en": "Torino 22",
+    "name_fa": "تورینو ۲۲",
+    "gender": "Unisex",
+    "season": "All seasons",
+    "family": "Woody",
+    "character": "Moderate",
+    "notes": {
+      "top": ["Saffron", "Eucalyptus", "Bergamot"],
+      "middle": ["Mint", "Clary Sage", "Guaiac Wood"],
+      "base": ["Musk", "Dry Woods"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": "Join the Club",
+    "name_en": "More Than Words",
+    "name_fa": "مور دن وردز",
+    "gender": "Unisex",
+    "season": "Cold seasons",
+    "family": "Oriental Woody",
+    "character": "Warm & Sweet",
+    "notes": {
+      "top": ["Fruity Notes", "Floral Aromatics", "Woody Notes"],
+      "middle": ["Amber", "Labdanum", "Frankincense", "Oud", "Oriental Notes"],
+      "base": ["—"]
+    }
+  },
+  {
+    "brand": "Xerjoff",
+    "collection": "XJ 17/17",
+    "name_en": "Alexandria II",
+    "name_fa": "الکساندریا ۲",
+    "gender": "Unisex",
+    "season": "Cold seasons",
+    "family": "Oriental Woody",
+    "character": "Warm & Bitter",
+    "notes": {
+      "top": ["Cinnamon", "Apple", "Brazilian Rosewood", "Lavender"],
+      "middle": ["Cedar", "Rose", "Lily of the Valley"],
+      "base": ["Amber", "Musk", "Sandalwood", "Oud"]
+    }
+  },
+  {
+    "brand": "Chanel",
+    "collection": null,
+    "name_en": "Coco Mademoiselle",
+    "name_fa": "کوکو مادمازل",
+    "gender": "Female",
+    "season": "All seasons",
+    "family": "Floral Oriental",
+    "character": "Soft & Sweet",
+    "notes": {
+      "top": ["Orange", "Mandarin", "Orange Blossom", "Bergamot"],
+      "middle": ["Mimosa", "Jasmine", "Rose", "Ylang-Ylang"],
+      "base": [
+        "Tonka Bean",
+        "Patchouli",
+        "Opoponax",
+        "Vanilla",
+        "Vetiver",
+        "Musk"
+      ]
+    }
+  },
+  {
+    "brand": "Chanel",
+    "collection": null,
+    "name_en": "Chance",
+    "name_fa": "چنس",
+    "gender": "Female",
+    "season": "Cool seasons",
+    "family": "Mediterranean Floral",
+    "character": "Soft & Sweet",
+    "notes": {
+      "top": ["Lemon", "Pineapple", "Pink Pepper"],
+      "middle": ["Hyacinth", "Iris", "Jasmine"],
+      "base": ["Amber", "Musk", "Patchouli", "Vetiver"]
+    }
+  },
+  {
+    "brand": "Chanel",
+    "collection": null,
+    "name_en": "Chance Eau Tendre",
+    "name_fa": "چنس اوتندر",
+    "gender": "Female",
+    "season": "Warm seasons",
+    "family": "Floral Fruity",
+    "character": "Soft & Sweet",
+    "notes": {
+      "top": ["Grapefruit", "Quince"],
+      "middle": ["Hyacinth", "Jasmine"],
+      "base": ["Amber", "Musk", "Iris", "Cedar"]
+    }
+  },
+  {
+    "brand": "Chanel",
+    "collection": "Allure Homme",
+    "name_en": "Allure Homme Sport",
+    "name_fa": "الور هوم اسپرت",
+    "gender": "Male",
+    "season": "Warm seasons",
+    "family": "Woody Spicy",
+    "character": "Cool & Sweet",
+    "notes": {
+      "top": ["Aldehydes", "Mandarin Orange", "Orange", "Sea Water"],
+      "middle": ["Neroli", "Pepper", "Cedar"],
+      "base": ["Amber", "Musk", "Tonka Bean", "Vanilla", "Vetiver"]
+    }
+  },
+  {
+    "brand": "Chanel",
+    "collection": "Allure Homme",
+    "name_en": "Allure Homme Edition Blanche",
+    "name_fa": "الور هوم ادیشن بلانچ",
+    "gender": "Male",
+    "season": "Warm seasons",
+    "family": "Oriental Woody",
+    "character": "Sweet",
+    "notes": {
+      "top": ["Lemon", "Bergamot"],
+      "middle": ["Woody Notes", "Sandalwood"],
+      "base": ["Vanilla", "Vetiver"]
+    }
+  },
+  {
+    "brand": "Chanel",
+    "collection": null,
+    "name_en": "Bleu de Chanel",
+    "name_fa": "بلو شنل",
+    "gender": "Male",
+    "season": "All seasons",
+    "family": "Woody Aromatic",
+    "character": "Cool & Bitter",
+    "notes": {
+      "top": ["Grapefruit", "Lemon", "Orange", "Mint", "Nutmeg", "Pink Pepper"],
+      "middle": ["Jasmine", "Ginger", "Cedar", "Vetiver"],
+      "base": ["Labdanum", "Olibanum", "Patchouli", "Sandalwood"]
+    }
+  },
+  {
+    "brand": "Givenchy",
+    "collection": null,
+    "name_en": "Ange ou Démon Le Secret",
+    "name_fa": "انژدمون له سکرت",
+    "gender": "Female",
+    "season": "Warm seasons",
+    "family": "Floral",
+    "character": "Soft & Sweet",
+    "notes": {
+      "top": ["Lemon", "Tea", "Red Berries"],
+      "middle": ["Jasmine", "Peony", "Water Lily"],
+      "base": ["Woody Notes", "Patchouli"]
+    }
+  },
+  {
+    "brand": "Givenchy",
+    "collection": null,
+    "name_en": "L'Interdit Eau de Parfum Rouge (Absolu)",
+    "name_fa": "له اینتردیت ابسولو",
+    "gender": "Female",
+    "season": "Spring",
+    "family": "Floral Woody Amber",
+    "character": "Warm",
+    "notes": {
+      "top": ["Jasmine", "Orange Blossom"],
+      "middle": ["Tuberose"],
+      "base": ["Patchouli", "Vetiver", "Ambroxan"]
+    }
+  },
+  {
+    "brand": "Lacoste",
+    "collection": null,
+    "name_en": "Lacoste Blanc (White)",
+    "name_fa": "لاگوست بلانچ (سفید)",
+    "gender": "Male",
+    "season": "Warm seasons",
+    "family": "Woody Aromatic",
+    "character": "Cool & Spicy",
+    "notes": {
+      "top": ["Cardamom", "Rosemary", "Grapefruit"],
+      "middle": ["Tuberose"],
+      "base": ["Cedar", "Leather", "Vetiver", "Suede"]
+    }
+  },
+  {
+    "brand": "Dior",
+    "collection": null,
+    "name_en": "Sauvage",
+    "name_fa": "ساواژ",
+    "gender": "Male",
+    "season": "All seasons",
+    "family": "Aromatic Fougère",
+    "character": "Fresh",
+    "notes": {
+      "top": ["Bergamot", "Pepper"],
+      "middle": [
+        "Lavender",
+        "Geranium",
+        "Pink Pepper",
+        "Elemi",
+        "Vetiver",
+        "Sichuan Pepper",
+        "Patchouli"
+      ],
+      "base": ["Labdanum", "Ambroxan", "Cedar"]
+    }
+  },
+  {
+    "brand": "Dior",
+    "collection": null,
+    "name_en": "Sauvage Elixir",
+    "name_fa": "ساواژ الکسیر",
+    "gender": "Male",
+    "season": "All seasons",
+    "family": "Aromatic",
+    "character": "Fresh",
+    "notes": {
+      "top": ["Cinnamon", "Nutmeg", "Cardamom", "Grapefruit"],
+      "middle": ["Lavender"],
+      "base": [
+        "Licorice",
+        "Sandalwood",
+        "Amber",
+        "Patchouli",
+        "Haitian Vetiver"
+      ]
+    }
+  },
+  {
+    "brand": "Dior",
+    "collection": null,
+    "name_en": "Dior Homme Intense",
+    "name_fa": "دیور هوم اینتنس",
+    "gender": "Male",
+    "season": "—",
+    "family": "Woody Musky Floral",
+    "character": "Warm & Sweet",
+    "notes": {
+      "top": ["Iris", "Lavender"],
+      "middle": ["Amber", "Vanilla"],
+      "base": ["Ambrette (Musk Mallow)", "Cedar", "Vetiver"]
+    }
+  },
+  {
+    "brand": "Dior",
+    "collection": null,
+    "name_en": "Fahrenheit",
+    "name_fa": "فارنهایت",
+    "gender": "Male",
+    "season": "—",
+    "family": "Woody Musky Floral",
+    "character": "Fresh & Woody",
+    "notes": {
+      "top": [
+        "Lavender",
+        "Mandarin",
+        "Nutmeg Flower",
+        "Cedar",
+        "Bergamot",
+        "Lemon",
+        "Chamomile",
+        "Hawthorn"
+      ],
+      "middle": [
+        "Nutmeg",
+        "Honey",
+        "Carnation",
+        "Sandalwood",
+        "Violet Leaf",
+        "Jasmine",
+        "Lily of the Valley",
+        "Cedar"
+      ],
+      "base": ["Leather"]
+    }
+  },
+  {
+    "brand": "Dior",
+    "collection": null,
+    "name_en": "Miss Dior (classic)",
+    "name_fa": "میس دیور",
+    "gender": "Female",
+    "season": "—",
+    "family": "Mediterranean Floral",
+    "character": "Soft & Sweet",
+    "notes": {
+      "top": ["Aldehydes", "Bergamot", "Gardenia", "Clary Sage", "Galbanum"],
+      "middle": [
+        "Carnation",
+        "Iris",
+        "Jasmine",
+        "Lily of the Valley",
+        "Narcissus",
+        "Neroli",
+        "Rose",
+        "Orris Root"
+      ],
+      "base": [
+        "Amber",
+        "Leather",
+        "Labdanum",
+        "Patchouli",
+        "Oakmoss",
+        "Sandalwood",
+        "Vetiver"
+      ]
+    }
+  },
+  {
+    "brand": "Dior",
+    "collection": "Poison",
+    "name_en": "Hypnotic Poison",
+    "name_fa": "هیپنوتیک پویزن",
+    "gender": "Female",
+    "season": "—",
+    "family": "Oriental Vanilla",
+    "character": "Soft & Sweet",
+    "notes": {
+      "top": ["Licorice", "Almond"],
+      "middle": ["Orange Blossom", "Jasmine Sambac"],
+      "base": ["Vanilla", "Tonka Bean"]
+    }
+  },
+  {
+    "brand": "Creed",
+    "collection": null,
+    "name_en": "Aventus (Men)",
+    "name_fa": "اونتوس مردانه",
+    "gender": "Male",
+    "season": "—",
+    "family": "Chypre Fruity (Mediterranean Fruity per user)",
+    "character": "Cool & Bitter",
+    "notes": {
+      "top": ["Bergamot", "Pineapple", "Black Currant", "Apple"],
+      "middle": ["Rose", "Jasmine", "Birch", "Patchouli"],
+      "base": ["Vanilla", "Oakmoss", "Amber", "Musk"]
+    }
+  },
+  {
+    "brand": "Creed",
+    "collection": null,
+    "name_en": "Aventus for Her",
+    "name_fa": "اونتوس زنانه",
+    "gender": "Female",
+    "season": "—",
+    "family": "Chypre Fruity",
+    "character": "Sweet",
+    "notes": {
+      "top": [
+        "Lemon",
+        "Bergamot",
+        "Violet",
+        "Pink Pepper",
+        "Apple",
+        "Patchouli"
+      ],
+      "middle": ["Rose", "Sandalwood", "Musk", "Civet"],
+      "base": ["Black Currant", "Ylang-Ylang", "Lilac", "Peach", "Amber"]
+    }
+  },
+  {
+    "brand": "Creed",
+    "collection": null,
+    "name_en": "Silver Mountain Water",
+    "name_fa": "سیلور منتین واتر",
+    "gender": "Unisex",
+    "season": "—",
+    "family": "Aromatic Citrus",
+    "character": "Fresh",
+    "notes": {
+      "top": ["Bergamot", "Mandarin Orange"],
+      "middle": ["Black Currant", "Green Tea"],
+      "base": ["Musk", "Petitgrain", "Galbanum", "Sandalwood"]
+    }
+  },
+  {
+    "brand": "Amouage",
+    "collection": null,
+    "name_en": "Guidance",
+    "name_fa": "گایدنس",
+    "gender": "Unisex",
+    "season": "—",
+    "family": "Floral Amber",
+    "character": "Warm & Soft",
+    "notes": {
+      "top": ["Pear", "Hazelnut", "Olibanum"],
+      "middle": ["Rose", "Saffron", "Jasmine Sambac", "Osmanthus"],
+      "base": ["Sandalwood", "Amber", "Vanilla", "Labdanum", "Akigalawood"]
+    }
+  },
+  {
+    "brand": "Amouage",
+    "collection": null,
+    "name_en": "Interlude Man",
+    "name_fa": "اینترلود",
+    "gender": "Male",
+    "season": "—",
+    "family": "Oriental Woody",
+    "character": "Warm",
+    "notes": {
+      "top": ["Oregano", "Pepper", "Bergamot"],
+      "middle": ["Incense", "Opoponax", "Amber", "Labdanum"],
+      "base": ["Oud", "Leather", "Sandalwood", "Patchouli"]
+    }
+  },
+  {
+    "brand": "Tom Ford",
+    "collection": null,
+    "name_en": "Black Orchid",
+    "name_fa": "بلک ارکید",
+    "gender": "Unisex",
+    "season": "—",
+    "family": "Oriental Floral / Amber Floral",
+    "character": "Warm & Sweet",
+    "notes": {
+      "top": [
+        "Bergamot",
+        "Black Currant",
+        "Ylang-Ylang",
+        "Jasmine",
+        "Mandarin",
+        "Truffle"
+      ],
+      "middle": [
+        "Spices",
+        "Fruity Notes",
+        "Orchid",
+        "Ylang-Ylang",
+        "Lotus",
+        "Jasmine"
+      ],
+      "base": [
+        "Vanilla",
+        "Chocolate",
+        "Smoky Notes",
+        "Sandalwood",
+        "Vetiver",
+        "Amber",
+        "Patchouli"
+      ]
+    }
+  },
+  {
+    "brand": "Tom Ford",
+    "collection": null,
+    "name_en": "Tobacco Vanille",
+    "name_fa": "توباکو وانیل",
+    "gender": "Unisex",
+    "season": "—",
+    "family": "Amber Spicy / Tobacco Vanilla",
+    "character": "Warm & Sweet",
+    "notes": {
+      "top": ["Tobacco", "Spicy Notes"],
+      "middle": ["Tonka Bean", "Tobacco Blossom", "Vanilla", "Cacao"],
+      "base": ["Dried Fruits", "Woody Notes"]
+    }
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "collection": null,
+    "name_en": "Y (EDP/EDT general listing)",
+    "name_fa": "وای",
+    "gender": "Male",
+    "season": "—",
+    "family": "Aromatic Fougère",
+    "character": "Fresh",
+    "notes": {
+      "top": ["Bergamot", "Ginger", "Apple"],
+      "middle": ["Geranium", "Sage", "Juniper Berries"],
+      "base": ["Tonka Bean", "Vetiver", "Frankincense", "Cedar", "Amberwood"]
+    }
+  },
+  {
+    "brand": "Yves Saint Laurent",
+    "collection": "Black Opium",
+    "name_en": "Black Opium",
+    "name_fa": "بلک اپیوم",
+    "gender": "Female",
+    "season": "—",
+    "family": "Oriental Spicy / Amber Vanilla",
+    "character": "Warm & Spicy",
+    "notes": {
+      "top": ["Pear", "Pink Pepper", "Orange Blossom"],
+      "middle": ["Coffee", "Jasmine"],
+      "base": ["Cedar", "Patchouli", "Vanilla"]
+    }
+  },
+  {
+    "brand": "Paco Rabanne",
+    "collection": null,
+    "name_en": "Invictus",
+    "name_fa": "اینوکتوس",
+    "gender": "Male",
+    "season": "Warm seasons",
+    "family": "Woody Aquatic",
+    "character": "Fresh & Spicy",
+    "notes": {
+      "top": ["Grapefruit", "Mandarin", "Sea Notes"],
+      "middle": ["Jasmine", "Bay Leaf"],
+      "base": ["Basil (Shahbui)", "Patchouli", "Oakmoss", "Guaiac Wood"]
+    }
+  },
+  {
+    "brand": "Creed",
+    "collection": null,
+    "name_en": "Green Irish Tweed",
+    "name_fa": "گرین آیریش تویید",
+    "gender": "Male",
+    "season": "—",
+    "family": "Woody Musky Floral",
+    "character": "Cool & Bitter",
+    "notes": {
+      "top": ["Lemon Verbena", "Iris"],
+      "middle": ["Violet Leaf"],
+      "base": ["Amber", "Sandalwood"]
+    }
+  }
+]

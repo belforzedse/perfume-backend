@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_pefume_notes",
+  "info": {
+    "displayName": "Notes"
+  },
+  "options": {},
+  "attributes": {
+    "top": {
+      "type": "json"
+    },
+    "middle": {
+      "type": "json"
+    },
+    "base": {
+      "type": "json"
+    }
+  },
+  "config": {}
+}

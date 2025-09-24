@@ -1,0 +1,67 @@
+{
+  "kind": "collectionType",
+  "collectionName": "perfumes",
+  "info": {
+    "singularName": "perfume",
+    "pluralName": "perfumes",
+    "displayName": "Perfume"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "notes": {
+      "type": "component",
+      "component": "pefume.notes",
+      "repeatable": false
+    },
+    "name_en": {
+      "type": "string",
+      "required": false
+    },
+    "name_fa": {
+      "type": "string",
+      "required": true
+    },
+    "gender": {
+      "type": "enumeration",
+      "enum": [
+        "Male",
+        "Female",
+        "Unisex"
+      ]
+    },
+    "season": {
+      "type": "string"
+    },
+    "family": {
+      "type": "string"
+    },
+    "character": {
+      "type": "string"
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::brand.brand",
+      "inversedBy": "perfumes"
+    },
+    "collection": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::collection.collection",
+      "inversedBy": "perfumes"
+    },
+    "cover": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}
