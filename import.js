@@ -5,7 +5,7 @@ const fetch = require("node-fetch");
 const API_URL = "http://localhost:1337/api";
 // Paste your Strapi Admin → Settings → API Tokens → Full Access token
 const API_TOKEN =
-  "812c56638029ffbcb9acb04d00c68ee1d84ca2ddeb367d1de01884ee7e19f326688f70ce5a5b66158579db2942bbf1fe13d399fd7a1ba7b447cd7bc22aee8bade7667b815da56cb5cfacbab65dd25241062ba953e0db904d7f599f940875092a732aaf64fb5ac9670a00cda3850d506fcdb6d6329bd4d4262a90c23b27b17f82";
+  "52026d5bf4499b85d2e072dfe0f8cd87946e02b57f9cd2d9bca950e3c0b79c6a5330bc3ce6b8e0b1a2dc00ca8a1243a3ddbe0ff4926b7eaf26a0fe88b319d0bcced9e057ff2d8f727ee2ca62050d8083afe0bc89d2501d42043aa493841a2b12ee651cdf6ebf9a8929f83b7e7d38e65ef55854a9230e4793d6347a98bb489cb0";
 
 // Helper: GET request
 async function getData(endpoint, filterField, value) {
@@ -43,6 +43,26 @@ async function main() {
   );
   const perfumes = JSON.parse(fs.readFileSync("./perfumes.json", "utf-8"));
 
+  // Map English brand names to Persian names
+  const brandNameMapping = {
+    "Xerjoff": "زرجف",
+    "Chanel": "شنل",
+    "Dior": "دیور",
+    "Creed": "کرید",
+    "Amouage": "آموآژ",
+    "Tom Ford": "تام فورد",
+    "Yves Saint Laurent": "ایو سن لورن",
+    "Paco Rabanne": "پاکو رابان",
+    "Givenchy": "گیوانچی",
+    "Lacoste": "لاکتوز",
+    "Gucci": "گوچی",
+    "Versace": "ورساچه",
+    "Armani": "آرمانی",
+    "Prada": "پرادا",
+    "Burberry": "بربری",
+    "Hermes": "هرمس"
+  };
+
   const brandMap = {};
   const collectionMap = {};
 
@@ -78,6 +98,16 @@ async function main() {
 
   // 3. Perfumes
   for (const p of perfumes) {
+    // Check if perfume already exists
+    let existing = await getData("perfumes", "name_en", p.name_en);
+    if (existing?.data?.length) {
+      console.log(`⚠️ Perfume ${p.name_en} already exists, skipping`);
+      continue;
+    }
+
+    // Convert English brand name to Persian for lookup
+    const persianBrandName = brandNameMapping[p.brand] || p.brand;
+
     const data = {
       name_en: p.name_en,
       name_fa: p.name_fa,
@@ -86,11 +116,16 @@ async function main() {
       family: p.family,
       character: p.character,
       notes: p.notes,
-      brand: brandMap[p.brand] || null,
+      brand: brandMap[persianBrandName] || null,
       collection: collectionMap[p.collection] || null,
     };
+
+    if (!brandMap[persianBrandName] && p.brand) {
+      console.log(`⚠️ Brand not found: ${p.brand} (Persian: ${persianBrandName})`);
+    }
+
     await postData("perfumes", data);
-    console.log(`✨ Imported perfume: ${p.name_en}`);
+    console.log(`✨ Imported perfume: ${p.name_en} (brand: ${p.brand} -> ${persianBrandName})`);
   }
 
   console.log("🎉 Import finished");

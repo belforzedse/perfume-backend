@@ -10,20 +10,20 @@
     "character": "Cool and Spicy",
     "notes": {
       "top": [
-        "لیمو",
-        "گریپ فروت",
-        "برگاموت"
+        "Lemon",
+        "Grapefruit",
+        "Bergamot"
       ],
       "middle": [
-        "زنبق",
-        "اسطوخودوس",
-        "رز"
+        "Iris",
+        "Lavender",
+        "Rose"
       ],
       "base": [
-        "سدر",
-        "صندل",
-        "کهربا",
-        "مشک"
+        "Cedar",
+        "Sandalwood",
+        "Amber",
+        "Musk"
       ]
     }
   },
@@ -38,16 +38,16 @@
     "character": "Sweet",
     "notes": {
       "top": [
-        "کارامل"
+        "Caramel"
       ],
       "middle": [
-        "یاس",
-        "پیچ عسلی",
-        "گاردنیا"
+        "Jasmine",
+        "Honeysuckle",
+        "Gardenia"
       ],
       "base": [
-        "وانیل",
-        "کهربا"
+        "Vanilla",
+        "Amber"
       ]
     }
   },
@@ -62,19 +62,19 @@
     "character": "Soft & Sweet",
     "notes": {
       "top": [
-        "پرتقال خونی",
-        "برگاموت",
-        "اسطوخودوس"
+        "Blood Orange",
+        "Bergamot",
+        "Lavender"
       ],
       "middle": [
-        "یاس",
-        "دارچین",
-        "شیرین بیان"
+        "Jasmine",
+        "Cinnamon",
+        "Licorice"
       ],
       "base": [
-        "وانیل",
-        "کارامل",
-        "مشک"
+        "Vanilla",
+        "Caramel",
+        "Musk"
       ]
     }
   },
@@ -89,20 +89,20 @@
     "character": "Warm & Spicy",
     "notes": {
       "top": [
-        "دارچین",
-        "جوز هندی"
+        "Cinnamon",
+        "Nutmeg"
       ],
       "middle": [
-        "پاپیروس",
-        "سدر",
-        "چوب گوایاک",
-        "صندل"
+        "Papyrus",
+        "Cedar",
+        "Guaiac Wood",
+        "Sandalwood"
       ],
       "base": [
-        "شکوفه تنباکو",
-        "کومارین",
-        "وانیل",
-        "مشک"
+        "Tobacco Blossom",
+        "Coumarin",
+        "Vanilla",
+        "Musk"
       ]
     }
   },
@@ -117,19 +117,19 @@
     "character": "Sweet",
     "notes": {
       "top": [
-        "نارنگی",
-        "لیمو کی"
+        "Mandarin",
+        "Key Lime"
       ],
       "middle": [
-        "برگ بنفشه شیرین",
-        "اکالیپتوس",
-        "رز بلغاری"
+        "Sweet Violet Leaf",
+        "Eucalyptus",
+        "Bulgarian Rose"
       ],
       "base": [
-        "وانیل",
-        "کهربا",
-        "مشک",
-        "پچولی"
+        "Vanilla",
+        "Amber",
+        "Musk",
+        "Patchouli"
       ]
     }
   },
@@ -144,21 +144,21 @@
     "character": "Warm & Sweet",
     "notes": {
       "top": [
-        "میخک",
-        "گشنیز",
-        "فلفل سیاه",
-        "زعفران"
+        "Clove",
+        "Coriander",
+        "Black Pepper",
+        "Saffron"
       ],
       "middle": [
-        "نرولی",
-        "رز",
-        "یلانگ یلانگ"
+        "Neroli",
+        "Rose",
+        "Ylang-Ylang"
       ],
       "base": [
-        "توس",
-        "پچولی",
-        "صندل",
-        "کهربا"
+        "Birch",
+        "Patchouli",
+        "Sandalwood",
+        "Amber"
       ]
     }
   },
@@ -173,20 +173,20 @@
     "character": "Warm & Sweet",
     "notes": {
       "top": [
-        "لیمو",
-        "لیمو",
-        "اسطوخودوس"
+        "Lemon",
+        "Lime",
+        "Lavender"
       ],
       "middle": [
-        "دارچین",
-        "آکورد کشمیر",
-        "عسل",
-        "یاس سامباک"
+        "Cinnamon",
+        "Cashmere Accord",
+        "Honey",
+        "Jasmine Sambac"
       ],
       "base": [
-        "وانیل",
-        "لوبیا تونکا",
-        "برگ تنباکو"
+        "Vanilla",
+        "Tonka Bean",
+        "Tobacco Leaf"
       ]
     }
   },
@@ -201,18 +201,18 @@
     "character": "Moderate",
     "notes": {
       "top": [
-        "زعفران",
-        "اکالیپتوس",
-        "برگاموت"
+        "Saffron",
+        "Eucalyptus",
+        "Bergamot"
       ],
       "middle": [
-        "نعنا",
-        "مریمیه",
-        "چوب گوایاک"
+        "Mint",
+        "Clary Sage",
+        "Guaiac Wood"
       ],
       "base": [
-        "مشک",
-        "چوب‌های خشک"
+        "Musk",
+        "Dry Woods"
       ]
     }
   },
@@ -227,16 +227,16 @@
     "character": "Warm & Sweet",
     "notes": {
       "top": [
-        "نت‌های میوه‌ای",
-        "عطریات گلی",
-        "نت‌های چوبی"
+        "Fruity Notes",
+        "Floral Aromatics",
+        "Woody Notes"
       ],
       "middle": [
-        "کهربا",
-        "لابدانوم",
-        "کندر",
-        "عود",
-        "نت‌های شرقی"
+        "Amber",
+        "Labdanum",
+        "Frankincense",
+        "Oud",
+        "Oriental Notes"
       ],
       "base": [
         "—"
@@ -254,21 +254,21 @@
     "character": "Warm & Bitter",
     "notes": {
       "top": [
-        "دارچین",
-        "سیب",
-        "چوب رز برزیلی",
-        "اسطوخودوس"
+        "Cinnamon",
+        "Apple",
+        "Brazilian Rosewood",
+        "Lavender"
       ],
       "middle": [
-        "سدر",
-        "رز",
-        "سوسن دره"
+        "Cedar",
+        "Rose",
+        "Lily of the Valley"
       ],
       "base": [
-        "کهربا",
-        "مشک",
-        "صندل",
-        "عود"
+        "Amber",
+        "Musk",
+        "Sandalwood",
+        "Oud"
       ]
     }
   },
@@ -283,24 +283,24 @@
     "character": "Soft & Sweet",
     "notes": {
       "top": [
-        "پرتقال",
-        "نارنگی",
-        "شکوفه پرتقال",
-        "برگاموت"
+        "Orange",
+        "Mandarin",
+        "Orange Blossom",
+        "Bergamot"
       ],
       "middle": [
-        "میموزا",
-        "یاس",
-        "رز",
-        "یلانگ یلانگ"
+        "Mimosa",
+        "Jasmine",
+        "Rose",
+        "Ylang-Ylang"
       ],
       "base": [
-        "لوبیا تونکا",
-        "پچولی",
-        "اپوپوناکس",
-        "وانیل",
-        "وتیور",
-        "مشک"
+        "Tonka Bean",
+        "Patchouli",
+        "Opoponax",
+        "Vanilla",
+        "Vetiver",
+        "Musk"
       ]
     }
   },
@@ -315,20 +315,20 @@
     "character": "Soft & Sweet",
     "notes": {
       "top": [
-        "لیمو",
-        "آناناس",
-        "فلفل صورتی"
+        "Lemon",
+        "Pineapple",
+        "Pink Pepper"
       ],
       "middle": [
-        "سنبل",
-        "زنبق",
-        "یاس"
+        "Hyacinth",
+        "Iris",
+        "Jasmine"
       ],
       "base": [
-        "کهربا",
-        "مشک",
-        "پچولی",
-        "وتیور"
+        "Amber",
+        "Musk",
+        "Patchouli",
+        "Vetiver"
       ]
     }
   },
@@ -343,18 +343,18 @@
     "character": "Soft & Sweet",
     "notes": {
       "top": [
-        "گریپ فروت",
-        "به"
+        "Grapefruit",
+        "Quince"
       ],
       "middle": [
-        "سنبل",
-        "یاس"
+        "Hyacinth",
+        "Jasmine"
       ],
       "base": [
-        "کهربا",
-        "مشک",
-        "زنبق",
-        "سدر"
+        "Amber",
+        "Musk",
+        "Iris",
+        "Cedar"
       ]
     }
   },
@@ -369,22 +369,22 @@
     "character": "Cool & Sweet",
     "notes": {
       "top": [
-        "آلدهید",
-        "نارنگی ماندارین",
-        "پرتقال",
-        "آب دریا"
+        "Aldehydes",
+        "Mandarin Orange",
+        "Orange",
+        "Sea Water"
       ],
       "middle": [
-        "نرولی",
-        "فلفل",
-        "سدر"
+        "Neroli",
+        "Pepper",
+        "Cedar"
       ],
       "base": [
-        "کهربا",
-        "مشک",
-        "لوبیا تونکا",
-        "وانیل",
-        "وتیور"
+        "Amber",
+        "Musk",
+        "Tonka Bean",
+        "Vanilla",
+        "Vetiver"
       ]
     }
   },
@@ -399,16 +399,16 @@
     "character": "Sweet",
     "notes": {
       "top": [
-        "لیمو",
-        "برگاموت"
+        "Lemon",
+        "Bergamot"
       ],
       "middle": [
-        "نت‌های چوبی",
-        "صندل"
+        "Woody Notes",
+        "Sandalwood"
       ],
       "base": [
-        "وانیل",
-        "وتیور"
+        "Vanilla",
+        "Vetiver"
       ]
     }
   },
@@ -423,24 +423,24 @@
     "character": "Cool & Bitter",
     "notes": {
       "top": [
-        "گریپ فروت",
-        "لیمو",
-        "پرتقال",
-        "نعنا",
-        "جوز هندی",
-        "فلفل صورتی"
+        "Grapefruit",
+        "Lemon",
+        "Orange",
+        "Mint",
+        "Nutmeg",
+        "Pink Pepper"
       ],
       "middle": [
-        "یاس",
-        "زنجبیل",
-        "سدر",
-        "وتیور"
+        "Jasmine",
+        "Ginger",
+        "Cedar",
+        "Vetiver"
       ],
       "base": [
-        "لابدانوم",
-        "اولیبانوم",
-        "پچولی",
-        "صندل"
+        "Labdanum",
+        "Olibanum",
+        "Patchouli",
+        "Sandalwood"
       ]
     }
   },
@@ -455,18 +455,18 @@
     "character": "Soft & Sweet",
     "notes": {
       "top": [
-        "لیمو",
-        "چای",
-        "توت‌های قرمز"
+        "Lemon",
+        "Tea",
+        "Red Berries"
       ],
       "middle": [
-        "یاس",
-        "صدتومان",
-        "نیلوفر آبی"
+        "Jasmine",
+        "Peony",
+        "Water Lily"
       ],
       "base": [
-        "نت‌های چوبی",
-        "پچولی"
+        "Woody Notes",
+        "Patchouli"
       ]
     }
   },
@@ -481,16 +481,16 @@
     "character": "Warm",
     "notes": {
       "top": [
-        "یاس",
-        "شکوفه پرتقال"
+        "Jasmine",
+        "Orange Blossom"
       ],
       "middle": [
-        "مریم گلی"
+        "Tuberose"
       ],
       "base": [
-        "پچولی",
-        "وتیور",
-        "آمبروکسان"
+        "Patchouli",
+        "Vetiver",
+        "Ambroxan"
       ]
     }
   },
@@ -505,18 +505,18 @@
     "character": "Cool & Spicy",
     "notes": {
       "top": [
-        "هل",
-        "رزماری",
-        "گریپ فروت"
+        "Cardamom",
+        "Rosemary",
+        "Grapefruit"
       ],
       "middle": [
-        "مریم گلی"
+        "Tuberose"
       ],
       "base": [
-        "سدر",
-        "چرم",
-        "وتیور",
-        "جیر"
+        "Cedar",
+        "Leather",
+        "Vetiver",
+        "Suede"
       ]
     }
   },
@@ -531,22 +531,22 @@
     "character": "Fresh",
     "notes": {
       "top": [
-        "برگاموت",
-        "فلفل"
+        "Bergamot",
+        "Pepper"
       ],
       "middle": [
-        "اسطوخودوس",
-        "شمعدانی",
-        "فلفل صورتی",
-        "المی",
-        "وتیور",
-        "فلفل سیچوان",
-        "پچولی"
+        "Lavender",
+        "Geranium",
+        "Pink Pepper",
+        "Elemi",
+        "Vetiver",
+        "Sichuan Pepper",
+        "Patchouli"
       ],
       "base": [
-        "لابدانوم",
-        "آمبروکسان",
-        "سدر"
+        "Labdanum",
+        "Ambroxan",
+        "Cedar"
       ]
     }
   },
@@ -561,20 +561,20 @@
     "character": "Fresh",
     "notes": {
       "top": [
-        "دارچین",
-        "جوز هندی",
-        "هل",
-        "گریپ فروت"
+        "Cinnamon",
+        "Nutmeg",
+        "Cardamom",
+        "Grapefruit"
       ],
       "middle": [
-        "اسطوخودوس"
+        "Lavender"
       ],
       "base": [
-        "شیرین بیان",
-        "صندل",
-        "کهربا",
-        "پچولی",
-        "وتیور هائیتی"
+        "Licorice",
+        "Sandalwood",
+        "Amber",
+        "Patchouli",
+        "Haitian Vetiver"
       ]
     }
   },
@@ -589,17 +589,17 @@
     "character": "Warm & Sweet",
     "notes": {
       "top": [
-        "زنبق",
-        "اسطوخودوس"
+        "Iris",
+        "Lavender"
       ],
       "middle": [
-        "کهربا",
-        "وانیل"
+        "Amber",
+        "Vanilla"
       ],
       "base": [
-        "آمبرت (مشک خیرالمخلوق)",
-        "سدر",
-        "وتیور"
+        "Ambrette (Musk Mallow)",
+        "Cedar",
+        "Vetiver"
       ]
     }
   },
@@ -614,27 +614,27 @@
     "character": "Fresh & Woody",
     "notes": {
       "top": [
-        "اسطوخودوس",
-        "نارنگی",
-        "گل جوز هندی",
-        "سدر",
-        "برگاموت",
-        "لیمو",
-        "بابونه",
-        "زالزالک"
+        "Lavender",
+        "Mandarin",
+        "Nutmeg Flower",
+        "Cedar",
+        "Bergamot",
+        "Lemon",
+        "Chamomile",
+        "Hawthorn"
       ],
       "middle": [
-        "جوز هندی",
-        "عسل",
-        "میخک",
-        "صندل",
-        "برگ بنفشه",
-        "یاس",
-        "سوسن دره",
-        "سدر"
+        "Nutmeg",
+        "Honey",
+        "Carnation",
+        "Sandalwood",
+        "Violet Leaf",
+        "Jasmine",
+        "Lily of the Valley",
+        "Cedar"
       ],
       "base": [
-        "چرم"
+        "Leather"
       ]
     }
   },
@@ -649,30 +649,30 @@
     "character": "Soft & Sweet",
     "notes": {
       "top": [
-        "آلدهید",
-        "برگاموت",
-        "گاردنیا",
-        "مریمیه",
-        "گالبانوم"
+        "Aldehydes",
+        "Bergamot",
+        "Gardenia",
+        "Clary Sage",
+        "Galbanum"
       ],
       "middle": [
-        "میخک",
-        "زنبق",
-        "یاس",
-        "سوسن دره",
-        "نرگس",
-        "نرولی",
-        "رز",
-        "ریشه زنبق"
+        "Carnation",
+        "Iris",
+        "Jasmine",
+        "Lily of the Valley",
+        "Narcissus",
+        "Neroli",
+        "Rose",
+        "Orris Root"
       ],
       "base": [
-        "کهربا",
-        "چرم",
-        "لابدانوم",
-        "پچولی",
-        "خزه بلوط",
-        "صندل",
-        "وتیور"
+        "Amber",
+        "Leather",
+        "Labdanum",
+        "Patchouli",
+        "Oakmoss",
+        "Sandalwood",
+        "Vetiver"
       ]
     }
   },
@@ -687,16 +687,16 @@
     "character": "Soft & Sweet",
     "notes": {
       "top": [
-        "شیرین بیان",
-        "بادام"
+        "Licorice",
+        "Almond"
       ],
       "middle": [
-        "شکوفه پرتقال",
-        "یاس سامباک"
+        "Orange Blossom",
+        "Jasmine Sambac"
       ],
       "base": [
-        "وانیل",
-        "لوبیا تونکا"
+        "Vanilla",
+        "Tonka Bean"
       ]
     }
   },
@@ -711,22 +711,22 @@
     "character": "Cool & Bitter",
     "notes": {
       "top": [
-        "برگاموت",
-        "آناناس",
-        "انگور فرنگی سیاه",
-        "سیب"
+        "Bergamot",
+        "Pineapple",
+        "Black Currant",
+        "Apple"
       ],
       "middle": [
-        "رز",
-        "یاس",
-        "توس",
-        "پچولی"
+        "Rose",
+        "Jasmine",
+        "Birch",
+        "Patchouli"
       ],
       "base": [
-        "وانیل",
-        "خزه بلوط",
-        "کهربا",
-        "مشک"
+        "Vanilla",
+        "Oakmoss",
+        "Amber",
+        "Musk"
       ]
     }
   },
@@ -741,25 +741,25 @@
     "character": "Sweet",
     "notes": {
       "top": [
-        "لیمو",
-        "برگاموت",
-        "بنفشه",
-        "فلفل صورتی",
-        "سیب",
-        "پچولی"
+        "Lemon",
+        "Bergamot",
+        "Violet",
+        "Pink Pepper",
+        "Apple",
+        "Patchouli"
       ],
       "middle": [
-        "رز",
-        "صندل",
-        "مشک",
-        "زباد"
+        "Rose",
+        "Sandalwood",
+        "Musk",
+        "Civet"
       ],
       "base": [
-        "انگور فرنگی سیاه",
-        "یلانگ یلانگ",
-        "یاس بنفش",
-        "هلو",
-        "کهربا"
+        "Black Currant",
+        "Ylang-Ylang",
+        "Lilac",
+        "Peach",
+        "Amber"
       ]
     }
   },
@@ -774,18 +774,18 @@
     "character": "Fresh",
     "notes": {
       "top": [
-        "برگاموت",
-        "نارنگی ماندارین"
+        "Bergamot",
+        "Mandarin Orange"
       ],
       "middle": [
-        "انگور فرنگی سیاه",
-        "چای سبز"
+        "Black Currant",
+        "Green Tea"
       ],
       "base": [
-        "مشک",
-        "پتی‌گرن",
-        "گالبانوم",
-        "صندل"
+        "Musk",
+        "Petitgrain",
+        "Galbanum",
+        "Sandalwood"
       ]
     }
   },
@@ -800,22 +800,22 @@
     "character": "Warm & Soft",
     "notes": {
       "top": [
-        "گلابی",
-        "فندق",
-        "اولیبانوم"
+        "Pear",
+        "Hazelnut",
+        "Olibanum"
       ],
       "middle": [
-        "رز",
-        "زعفران",
-        "یاس سامباک",
-        "اسمانتوس"
+        "Rose",
+        "Saffron",
+        "Jasmine Sambac",
+        "Osmanthus"
       ],
       "base": [
-        "صندل",
-        "کهربا",
-        "وانیل",
-        "لابدانوم",
-        "آکیگالاوود"
+        "Sandalwood",
+        "Amber",
+        "Vanilla",
+        "Labdanum",
+        "Akigalawood"
       ]
     }
   },
@@ -830,21 +830,21 @@
     "character": "Warm",
     "notes": {
       "top": [
-        "پونه کوهی",
-        "فلفل",
-        "برگاموت"
+        "Oregano",
+        "Pepper",
+        "Bergamot"
       ],
       "middle": [
-        "عود",
-        "اپوپوناکس",
-        "کهربا",
-        "لابدانوم"
+        "Incense",
+        "Opoponax",
+        "Amber",
+        "Labdanum"
       ],
       "base": [
-        "عود",
-        "چرم",
-        "صندل",
-        "پچولی"
+        "Oud",
+        "Leather",
+        "Sandalwood",
+        "Patchouli"
       ]
     }
   },
@@ -859,29 +859,29 @@
     "character": "Warm & Sweet",
     "notes": {
       "top": [
-        "برگاموت",
-        "انگور فرنگی سیاه",
-        "یلانگ یلانگ",
-        "یاس",
-        "نارنگی",
-        "قارچ دنبلان"
+        "Bergamot",
+        "Black Currant",
+        "Ylang-Ylang",
+        "Jasmine",
+        "Mandarin",
+        "Truffle"
       ],
       "middle": [
-        "ادویه‌جات",
-        "نت‌های میوه‌ای",
-        "ارکیده",
-        "یلانگ یلانگ",
-        "نیلوفر",
-        "یاس"
+        "Spices",
+        "Fruity Notes",
+        "Orchid",
+        "Ylang-Ylang",
+        "Lotus",
+        "Jasmine"
       ],
       "base": [
-        "وانیل",
-        "شکلات",
-        "نت‌های دودی",
-        "صندل",
-        "وتیور",
-        "کهربا",
-        "پچولی"
+        "Vanilla",
+        "Chocolate",
+        "Smoky Notes",
+        "Sandalwood",
+        "Vetiver",
+        "Amber",
+        "Patchouli"
       ]
     }
   },
@@ -896,18 +896,18 @@
     "character": "Warm & Sweet",
     "notes": {
       "top": [
-        "تنباکو",
-        "نت‌های تند"
+        "Tobacco",
+        "Spicy Notes"
       ],
       "middle": [
-        "لوبیا تونکا",
-        "شکوفه تنباکو",
-        "وانیل",
-        "کاکائو"
+        "Tonka Bean",
+        "Tobacco Blossom",
+        "Vanilla",
+        "Cacao"
       ],
       "base": [
-        "میوه‌های خشک",
-        "نت‌های چوبی"
+        "Dried Fruits",
+        "Woody Notes"
       ]
     }
   },
@@ -922,21 +922,21 @@
     "character": "Fresh",
     "notes": {
       "top": [
-        "برگاموت",
-        "زنجبیل",
-        "سیب"
+        "Bergamot",
+        "Ginger",
+        "Apple"
       ],
       "middle": [
-        "شمعدانی",
-        "مریمیه",
-        "توت ارس"
+        "Geranium",
+        "Sage",
+        "Juniper Berries"
       ],
       "base": [
-        "لوبیا تونکا",
-        "وتیور",
-        "کندر",
-        "سدر",
-        "چوب کهربایی"
+        "Tonka Bean",
+        "Vetiver",
+        "Frankincense",
+        "Cedar",
+        "Amberwood"
       ]
     }
   },
@@ -951,18 +951,18 @@
     "character": "Warm & Spicy",
     "notes": {
       "top": [
-        "گلابی",
-        "فلفل صورتی",
-        "شکوفه پرتقال"
+        "Pear",
+        "Pink Pepper",
+        "Orange Blossom"
       ],
       "middle": [
-        "قهوه",
-        "یاس"
+        "Coffee",
+        "Jasmine"
       ],
       "base": [
-        "سدر",
-        "پچولی",
-        "وانیل"
+        "Cedar",
+        "Patchouli",
+        "Vanilla"
       ]
     }
   },
@@ -977,19 +977,19 @@
     "character": "Fresh & Spicy",
     "notes": {
       "top": [
-        "گریپ فروت",
-        "نارنگی",
-        "نت‌های دریایی"
+        "Grapefruit",
+        "Mandarin",
+        "Sea Notes"
       ],
       "middle": [
-        "یاس",
-        "برگ بو"
+        "Jasmine",
+        "Bay Leaf"
       ],
       "base": [
-        "ریحان (شاهبوی)",
-        "پچولی",
-        "خزه بلوط",
-        "چوب گوایاک"
+        "Basil (Shahbui)",
+        "Patchouli",
+        "Oakmoss",
+        "Guaiac Wood"
       ]
     }
   },
@@ -1004,15 +1004,15 @@
     "character": "Cool & Bitter",
     "notes": {
       "top": [
-        "لیمو وربنا",
-        "زنبق"
+        "Lemon Verbena",
+        "Iris"
       ],
       "middle": [
-        "برگ بنفشه"
+        "Violet Leaf"
       ],
       "base": [
-        "کهربا",
-        "صندل"
+        "Amber",
+        "Sandalwood"
       ]
     }
   }
