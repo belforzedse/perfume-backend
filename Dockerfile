@@ -1,18 +1,13 @@
-FROM node:18-alpine
-
+FROM node:20-alpine
 WORKDIR /app
 
-# Copy package files
 COPY package*.json ./
-RUN npm ci --only=production
+RUN npm ci
 
-# Copy source code
 COPY . .
 
-# Build the application
+ENV NODE_ENV=production
 RUN npm run build
 
 EXPOSE 1337
-
-# Start the application
 CMD ["npm", "start"]

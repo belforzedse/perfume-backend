@@ -20,6 +20,8 @@ jobs:
           key: ${{ secrets.VPS_KEY }}
           source: "."
           target: "~/perfume-backend"
+          debug: true
+          use_insecure_cipher: true
 
       - name: Deploy via SSH
         uses: appleboy/ssh-action@v0.1.10
@@ -29,6 +31,16 @@ jobs:
           key: ${{ secrets.VPS_KEY }}
           script: |
             cd ~/perfume-backend
-            docker-compose down
+
+            echo "🧹 Stopping old backend..."
+            docker-compose down || true
+
+            echo "🚧 Rebuilding backend image..."
             docker-compose build --no-cache
+
+            echo "🚀 Starting backend container..."
             docker-compose up -d
+
+            echo "✅ Backend deployed successfully at http://kioskapi.gandom-perfume.ir:1337"
+          debug: true
+          use_insecure_cipher: true
