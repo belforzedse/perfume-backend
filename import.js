@@ -2,9 +2,10 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 
 // Strapi API base URL
-const API_URL = "http://localhost:1337/api";
+const API_URL = process.env.API_URL || "http://localhost:1337/api";
 // Paste your Strapi Admin → Settings → API Tokens → Full Access token
 const API_TOKEN =
+  process.env.API_TOKEN ||
   "52026d5bf4499b85d2e072dfe0f8cd87946e02b57f9cd2d9bca950e3c0b79c6a5330bc3ce6b8e0b1a2dc00ca8a1243a3ddbe0ff4926b7eaf26a0fe88b319d0bcced9e057ff2d8f727ee2ca62050d8083afe0bc89d2501d42043aa493841a2b12ee651cdf6ebf9a8929f83b7e7d38e65ef55854a9230e4793d6347a98bb489cb0";
 
 // Helper: GET request

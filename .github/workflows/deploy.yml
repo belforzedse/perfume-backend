@@ -32,14 +32,27 @@ jobs:
           script: |
             cd ~/perfume-backend
 
-            echo "🧹 Stopping old backend..."
-            docker-compose down || true
+            echo "💾 Backing up database (if exists)..."
+            if [ -f .tmp/data.db ]; then
+              cp .tmp/data.db .tmp/data.db.backup.$(date +%Y%m%d_%H%M%S)
+              echo "✅ Database backed up"
+            fi
+
+            echo "🧹 Stopping old backend container (preserving volumes)..."
+            docker-compose stop || true
+            docker-compose rm -f || true
 
             echo "🚧 Rebuilding backend image..."
             docker-compose build --no-cache
 
             echo "🚀 Starting backend container..."
             docker-compose up -d
+
+            echo "⏳ Waiting for Strapi to be ready..."
+            sleep 15
+
+            echo "📦 Running import scripts..."
+            docker-compose exec -T backend npm run import || echo "⚠️ Import script completed with warnings"
 
             echo "✅ Backend deployed successfully at http://kioskapi.gandom-perfume.ir:1337"
           debug: true
