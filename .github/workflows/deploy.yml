@@ -44,3 +44,4 @@ jobs:
             echo "✅ Backend deployed successfully at http://kioskapi.gandom-perfume.ir:1337"
           debug: true
           use_insecure_cipher: true
+#Shine on you crazy diamond
