@@ -4,7 +4,7 @@ const fs = require("fs");
 const API_URL = "http://localhost:1337/api";
 // Updated API token
 const API_TOKEN =
-  "52026d5bf4499b85d2e072dfe0f8cd87946e02b57f9cd2d9bca950e3c0b79c6a5330bc3ce6b8e0b1a2dc00ca8a1243a3ddbe0ff4926b7eaf26a0fe88b319d0bcced9e057ff2d8f727ee2ca62050d8083afe0bc89d2501d42043aa493841a2b12ee651cdf6ebf9a8929f83b7e7d38e65ef55854a9230e4793d6347a98bb489cb0";
+  "506061ccebba94b76a5367d675f321b661507da2a96d32157153d6d1eebf633a583705d25da01f8d2d064e3bcd629b2ee8d7a439927ed863c1bfc71a3f449c4d619329fda1d4969865724874e1ba7f7508862dfd7a0f348b7c9dcadddf6831043f690c9f956132b013094e48717a1b8668a184a2fb6b0b22b4bfd76dab73d3d2";
 
 // Helper: GET all data
 async function getAllData(endpoint) {

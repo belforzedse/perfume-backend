@@ -5,7 +5,7 @@ const fs = require("fs");
 const API_URL = "http://localhost:1337/api";
 // Paste your Strapi Admin → Settings → API Tokens → Full Access token
 const API_TOKEN =
-  "812c56638029ffbcb9acb04d00c68ee1d84ca2ddeb367d1de01884ee7e19f326688f70ce5a5b66158579db2942bbf1fe13d399fd7a1ba7b447cd7bc22aee8bade7667b815da56cb5cfacbab65dd25241062ba953e0db904d7f599f940875092a732aaf64fb5ac9670a00cda3850d506fcdb6d6329bd4d4262a90c23b27b17f82";
+  "506061ccebba94b76a5367d675f321b661507da2a96d32157153d6d1eebf633a583705d25da01f8d2d064e3bcd629b2ee8d7a439927ed863c1bfc71a3f449c4d619329fda1d4969865724874e1ba7f7508862dfd7a0f348b7c9dcadddf6831043f690c9f956132b013094e48717a1b8668a184a2fb6b0b22b4bfd76dab73d3d2";
 
 // Map English brand names to Persian names
 const brandNameMapping = {

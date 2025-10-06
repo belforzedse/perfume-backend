@@ -52,9 +52,16 @@ jobs:
             sleep 15
 
             echo "📦 Running import scripts..."
-            docker-compose exec -T backend npm run import || echo "⚠️ Import script completed with warnings"
+            if docker-compose exec -T backend npm run import 2>&1 | grep -q "401"; then
+              echo "⚠️ Import failed: Invalid API token"
+              echo "📝 To fix: Generate a new API token in Strapi admin and update .env"
+              echo "📖 See IMPORT_SETUP.md for instructions"
+            else
+              echo "✅ Import completed successfully"
+            fi
 
             echo "✅ Backend deployed successfully at http://kioskapi.gandom-perfume.ir:1337"
+            echo "🔗 Admin Panel: http://kioskapi.gandom-perfume.ir:1337/admin"
           debug: true
           use_insecure_cipher: true
 #Shine on you crazy diamond
