@@ -17,6 +17,12 @@
       "target": "api::perfume.perfume",
       "mappedBy": "brand"
     },
+    "collections": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::collection.collection",
+      "mappedBy": "brand"
+    },
     "name": {
       "type": "string",
       "required": true,

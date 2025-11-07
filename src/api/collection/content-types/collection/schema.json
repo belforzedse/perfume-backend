@@ -20,6 +20,12 @@
     "name": {
       "type": "string",
       "required": true
+    },
+    "brand": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::brand.brand",
+      "inversedBy": "collections"
     }
   }
 }
