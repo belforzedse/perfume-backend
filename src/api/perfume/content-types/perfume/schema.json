@@ -25,21 +25,20 @@
       "required": true
     },
     "gender": {
-      "type": "enumeration",
-      "enum": [
-        "Male",
-        "Female",
-        "Unisex"
-      ]
+      "type": "string",
+      "maxLength": 255
     },
     "season": {
-      "type": "string"
+      "type": "text",
+      "maxLength": 500
     },
     "family": {
-      "type": "string"
+      "type": "text",
+      "maxLength": 500
     },
     "character": {
-      "type": "string"
+      "type": "text",
+      "maxLength": 500
     },
     "brand": {
       "type": "relation",

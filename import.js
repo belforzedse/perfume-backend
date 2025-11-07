@@ -2,7 +2,7 @@ const fs = require("fs");
 const fetch = require("node-fetch");
 
 // Strapi API base URL
-const API_URL = process.env.API_URL || "http://localhost:1337/api";
+const API_URL = process.env.API_URL || "https://kioskapi.gandom-perfume.ir/api";
 // Paste your Strapi Admin → Settings → API Tokens → Full Access token
 const API_TOKEN =
   process.env.API_TOKEN ||
