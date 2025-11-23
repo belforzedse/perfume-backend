@@ -1,179 +1,107 @@
-const fs = require('fs');
+const fs = require("fs");
+const path = require("path");
 
-// Persian translation mapping for perfume notes
-const noteTranslations = {
-  "Akigalawood": "آکیگالاوود",
-  "Aldehydes": "آلدهید",
-  "Almond": "بادام",
-  "Amber": "کهربا",
-  "Amberwood": "چوب کهربایی",
-  "Ambrette (Musk Mallow)": "آمبرت (مشک خیرالمخلوق)",
-  "Ambroxan": "آمبروکسان",
-  "Apple": "سیب",
-  "Basil (Shahbui)": "ریحان (شاهبوی)",
-  "Bay Leaf": "برگ بو",
-  "Bergamot": "برگاموت",
-  "Birch": "توس",
-  "Black Currant": "انگور فرنگی سیاه",
-  "Black Pepper": "فلفل سیاه",
-  "Blood Orange": "پرتقال خونی",
-  "Brazilian Rosewood": "چوب رز برزیلی",
-  "Bulgarian Rose": "رز بلغاری",
-  "Cacao": "کاکائو",
-  "Caramel": "کارامل",
-  "Cardamom": "هل",
-  "Carnation": "میخک",
-  "Cashmere Accord": "آکورد کشمیر",
-  "Cedar": "سدر",
-  "Chamomile": "بابونه",
-  "Chocolate": "شکلات",
-  "Cinnamon": "دارچین",
-  "Civet": "زباد",
-  "Clary Sage": "مریمیه",
-  "Clove": "میخک",
-  "Coffee": "قهوه",
-  "Coriander": "گشنیز",
-  "Coumarin": "کومارین",
-  "Dried Fruits": "میوه‌های خشک",
-  "Dry Woods": "چوب‌های خشک",
-  "Elemi": "المی",
-  "Eucalyptus": "اکالیپتوس",
-  "Floral Aromatics": "عطریات گلی",
-  "Frankincense": "کندر",
-  "Fruity Notes": "نت‌های میوه‌ای",
-  "Galbanum": "گالبانوم",
-  "Gardenia": "گاردنیا",
-  "Geranium": "شمعدانی",
-  "Ginger": "زنجبیل",
-  "Grapefruit": "گریپ فروت",
-  "Green Tea": "چای سبز",
-  "Guaiac Wood": "چوب گوایاک",
-  "Haitian Vetiver": "وتیور هائیتی",
-  "Hawthorn": "زالزالک",
-  "Hazelnut": "فندق",
-  "Honey": "عسل",
-  "Honeysuckle": "پیچ عسلی",
-  "Hyacinth": "سنبل",
-  "Incense": "عود",
-  "Iris": "زنبق",
-  "Jasmine": "یاس",
-  "Jasmine Sambac": "یاس سامباک",
-  "Juniper Berries": "توت ارس",
-  "Key Lime": "لیمو کی",
-  "Labdanum": "لابدانوم",
-  "Lavender": "اسطوخودوس",
-  "Leather": "چرم",
-  "Lemon": "لیمو",
-  "Lemon Verbena": "لیمو وربنا",
-  "Licorice": "شیرین بیان",
-  "Lilac": "یاس بنفش",
-  "Lily of the Valley": "سوسن دره",
-  "Lime": "لیمو",
-  "Lotus": "نیلوفر",
-  "Mandarin": "نارنگی",
-  "Mandarin Orange": "نارنگی ماندارین",
-  "Mimosa": "میموزا",
-  "Mint": "نعنا",
-  "Musk": "مشک",
-  "Narcissus": "نرگس",
-  "Neroli": "نرولی",
-  "Nutmeg": "جوز هندی",
-  "Nutmeg Flower": "گل جوز هندی",
-  "Oakmoss": "خزه بلوط",
-  "Olibanum": "اولیبانوم",
-  "Opoponax": "اپوپوناکس",
-  "Orange": "پرتقال",
-  "Orange Blossom": "شکوفه پرتقال",
-  "Orchid": "ارکیده",
-  "Oregano": "پونه کوهی",
-  "Oriental Notes": "نت‌های شرقی",
-  "Orris Root": "ریشه زنبق",
-  "Osmanthus": "اسمانتوس",
-  "Oud": "عود",
-  "Papyrus": "پاپیروس",
-  "Patchouli": "پچولی",
-  "Peach": "هلو",
-  "Pear": "گلابی",
-  "Peony": "صدتومان",
-  "Pepper": "فلفل",
-  "Petitgrain": "پتی‌گرن",
-  "Pineapple": "آناناس",
-  "Pink Pepper": "فلفل صورتی",
-  "Quince": "به",
-  "Red Berries": "توت‌های قرمز",
-  "Rose": "رز",
-  "Rosemary": "رزماری",
-  "Saffron": "زعفران",
-  "Sage": "مریمیه",
-  "Sandalwood": "صندل",
-  "Sea Notes": "نت‌های دریایی",
-  "Sea Water": "آب دریا",
-  "Sichuan Pepper": "فلفل سیچوان",
-  "Smoky Notes": "نت‌های دودی",
-  "Spices": "ادویه‌جات",
-  "Spicy Notes": "نت‌های تند",
-  "Suede": "جیر",
-  "Sweet Violet Leaf": "برگ بنفشه شیرین",
-  "Tea": "چای",
-  "Tobacco": "تنباکو",
-  "Tobacco Blossom": "شکوفه تنباکو",
-  "Tobacco Leaf": "برگ تنباکو",
-  "Tonka Bean": "لوبیا تونکا",
-  "Truffle": "قارچ دنبلان",
-  "Tuberose": "مریم گلی",
-  "Vanilla": "وانیل",
-  "Vetiver": "وتیور",
-  "Violet": "بنفشه",
-  "Violet Leaf": "برگ بنفشه",
-  "Water Lily": "نیلوفر آبی",
-  "Woody Notes": "نت‌های چوبی",
-  "Ylang-Ylang": "یلانگ یلانگ"
-};
+// Read translation mapping
+const translationPath = path.join(__dirname, "persian-to-english-notes.json");
+const translationMap = JSON.parse(fs.readFileSync(translationPath, "utf-8"));
 
-// Read the perfumes.json file
-console.log('Reading perfumes.json...');
-const perfumes = JSON.parse(fs.readFileSync('perfumes.json', 'utf8'));
+// Read extracted notes with layers
+const rawNotesPath = path.join(__dirname, "learned-notes-raw.json");
+const rawData = JSON.parse(fs.readFileSync(rawNotesPath, "utf-8"));
 
-// Function to translate notes
-function translateNotes(notes) {
-  if (!notes) return notes;
+console.log("📖 Translating Persian notes to English...");
+console.log(`Found ${rawData.notesWithLayers.length} notes to translate`);
 
-  const translated = {};
-  if (notes.top) {
-    translated.top = notes.top.map(note => noteTranslations[note] || note);
-  }
-  if (notes.middle) {
-    translated.middle = notes.middle.map(note => noteTranslations[note] || note);
-  }
-  if (notes.base) {
-    translated.base = notes.base.map(note => noteTranslations[note] || note);
-  }
-  return translated;
+// Helper function to normalize Persian text
+function normalizePersian(text) {
+  return text.trim().replace(/\s+/g, " ");
 }
 
-// Translate all perfumes
-console.log('Translating notes to Persian...');
-const translatedPerfumes = perfumes.map(perfume => ({
-  ...perfume,
-  notes: translateNotes(perfume.notes)
-}));
+// Translate notes with layer and brand information
+const translatedNotes = rawData.notesWithLayers.map((item) => {
+  const persianNote = normalizePersian(item.note);
+  const englishNote = translationMap[persianNote];
+  
+  return {
+    persian: persianNote,
+    english: englishNote || persianNote, // Fallback to Persian if not translated
+    isTranslated: englishNote !== null && englishNote !== undefined,
+    stats: item.stats, // Preserve layer statistics
+    brands: item.brands || [], // Preserve brand information
+    brandCounts: item.brandCounts || [], // Preserve brand counts
+    totalBrands: item.totalBrands || 0, // Total number of brands using this note
+  };
+});
 
-// Create backup of original file
-console.log('Creating backup of original file...');
-fs.writeFileSync('perfumes-original.json', JSON.stringify(perfumes, null, 2), 'utf8');
+// Count statistics
+const translated = translatedNotes.filter((n) => n.isTranslated).length;
+const untranslated = translatedNotes.filter((n) => !n.isTranslated).length;
 
-// Write the translated perfumes back to the file
-console.log('Writing translated perfumes.json...');
-fs.writeFileSync('perfumes.json', JSON.stringify(translatedPerfumes, null, 2), 'utf8');
+console.log(`\n✅ Translation complete!`);
+console.log(`📊 Translated: ${translated}`);
+console.log(`⚠️  Untranslated: ${untranslated}`);
 
-console.log('✅ Translation complete! Notes are now in Persian.');
-console.log('📁 Original file backed up as perfumes-original.json');
+// Group by primary layer
+const byLayer = {
+  top: translatedNotes.filter((n) => n.stats.primaryLayer === "top"),
+  middle: translatedNotes.filter((n) => n.stats.primaryLayer === "middle"),
+  base: translatedNotes.filter((n) => n.stats.primaryLayer === "base"),
+};
 
-// Show a sample of the changes
-console.log('\n📝 Sample of translated notes:');
-if (translatedPerfumes[0] && translatedPerfumes[0].notes) {
-  console.log('First perfume notes:');
-  console.log('- Top:', translatedPerfumes[0].notes.top);
-  console.log('- Middle:', translatedPerfumes[0].notes.middle);
-  console.log('- Base:', translatedPerfumes[0].notes.base);
+console.log(`\n📈 Notes by layer:`);
+console.log(`  Top: ${byLayer.top.length}`);
+console.log(`  Middle: ${byLayer.middle.length}`);
+console.log(`  Base: ${byLayer.base.length}`);
+
+// Save translated notes
+const outputPath = path.join(__dirname, "learned-notes-translated.json");
+fs.writeFileSync(
+  outputPath,
+  JSON.stringify(
+    {
+      totalNotes: translatedNotes.length,
+      translated: translated,
+      untranslated: untranslated,
+      notes: translatedNotes,
+      byLayer: {
+        top: byLayer.top.map((n) => ({
+          persian: n.persian,
+          english: n.english,
+          stats: n.stats,
+        })),
+        middle: byLayer.middle.map((n) => ({
+          persian: n.persian,
+          english: n.english,
+          stats: n.stats,
+        })),
+        base: byLayer.base.map((n) => ({
+          persian: n.persian,
+          english: n.english,
+          stats: n.stats,
+        })),
+      },
+    },
+    null,
+    2
+  ),
+  "utf-8"
+);
+
+console.log(`💾 Saved translated notes to: ${outputPath}`);
+
+// Show sample translations
+console.log(`\n📋 Sample translations (first 10):`);
+translatedNotes.slice(0, 10).forEach((note, i) => {
+  const status = note.isTranslated ? "✅" : "⚠️";
+  console.log(`  ${i + 1}. ${status} ${note.persian} → ${note.english}`);
+});
+
+if (untranslated > 0) {
+  console.log(`\n⚠️  Untranslated notes (first 10):`);
+  translatedNotes
+    .filter((n) => !n.isTranslated)
+    .slice(0, 10)
+    .forEach((note, i) => {
+      console.log(`  ${i + 1}. ${note.persian}`);
+    });
 }

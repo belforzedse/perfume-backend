@@ -164,7 +164,7 @@
   },
   {
     "brand": "Xerjoff",
-    "collection": "ترمه (پارچه کشميري)",
+    "collection": null,
     "name_en": "Naxos",
     "name_fa": "ناکسوس",
     "gender": "Unisex",
@@ -217,7 +217,7 @@
     }
   },
   {
-    "brand": "زرجف",
+    "brand": "Xerjoff",
     "collection": "Join the Club",
     "name_en": "More Than Words",
     "name_fa": "مور دن وردز",
@@ -245,7 +245,7 @@
   },
   {
     "brand": "Xerjoff",
-    "collection": "سدر",
+    "collection": "XJ 17/17",
     "name_en": "Alexandria II",
     "name_fa": "الکساندریا ۲",
     "gender": "Unisex",
@@ -274,7 +274,7 @@
   },
   {
     "brand": "Chanel",
-    "collection": "میموس",
+    "collection": null,
     "name_en": "Coco Mademoiselle",
     "name_fa": "کوکو مادمازل",
     "gender": "Female",
@@ -306,7 +306,7 @@
   },
   {
     "brand": "Chanel",
-    "collection": "گل زنبق",
+    "collection": null,
     "name_en": "Chance",
     "name_fa": "چنس",
     "gender": "Female",
@@ -334,7 +334,7 @@
   },
   {
     "brand": "Chanel",
-    "collection": "مشک",
+    "collection": null,
     "name_en": "Chance Eau Tendre",
     "name_fa": "چنس اوتندر",
     "gender": "Female",
@@ -360,7 +360,7 @@
   },
   {
     "brand": "Chanel",
-    "collection": "گل نرولی",
+    "collection": "Allure Homme",
     "name_en": "Allure Homme Sport",
     "name_fa": "الور هوم اسپرت",
     "gender": "Male",
@@ -521,7 +521,7 @@
     }
   },
   {
-    "brand": "دیور",
+    "brand": "Dior",
     "collection": null,
     "name_en": "Sauvage",
     "name_fa": "ساواژ",
@@ -552,7 +552,7 @@
   },
   {
     "brand": "Dior",
-    "collection": "اسطوخودوس",
+    "collection": null,
     "name_en": "Sauvage Elixir",
     "name_fa": "ساواژ الکسیر",
     "gender": "Male",
@@ -580,7 +580,7 @@
   },
   {
     "brand": "Dior",
-    "collection": "گیاه مشک مالو",
+    "collection": null,
     "name_en": "Dior Homme Intense",
     "name_fa": "دیور هوم اینتنس",
     "gender": "Male",
@@ -605,7 +605,7 @@
   },
   {
     "brand": "Dior",
-    "collection": "ترنج",
+    "collection": null,
     "name_en": "Fahrenheit",
     "name_fa": "فارنهایت",
     "gender": "Male",
@@ -678,7 +678,7 @@
   },
   {
     "brand": "Dior",
-    "collection": "وانيل",
+    "collection": "Poison",
     "name_en": "Hypnotic Poison",
     "name_fa": "هیپنوتیک پویزن",
     "gender": "Female",
@@ -765,7 +765,7 @@
   },
   {
     "brand": "Creed",
-    "collection": "مشک",
+    "collection": null,
     "name_en": "Silver Mountain Water",
     "name_fa": "سیلور منتین واتر",
     "gender": "Unisex",
@@ -791,7 +791,7 @@
   },
   {
     "brand": "Amouage",
-    "collection": "زعفران",
+    "collection": null,
     "name_en": "Guidance",
     "name_fa": "گایدنس",
     "gender": "Unisex",
@@ -849,7 +849,7 @@
     }
   },
   {
-    "brand": "تام فورد",
+    "brand": "Tom Ford",
     "collection": null,
     "name_en": "Black Orchid",
     "name_fa": "بلک ارکید",
@@ -887,7 +887,7 @@
   },
   {
     "brand": "Tom Ford",
-    "collection": "شکوفه تنباکو",
+    "collection": null,
     "name_en": "Tobacco Vanille",
     "name_fa": "توباکو وانیل",
     "gender": "Unisex",
@@ -941,7 +941,7 @@
     }
   },
   {
-    "brand": "ایوسن لورن",
+    "brand": "Yves Saint Laurent",
     "collection": "Black Opium",
     "name_en": "Black Opium",
     "name_fa": "بلک اپیوم",
@@ -995,7 +995,7 @@
   },
   {
     "brand": "Creed",
-    "collection": "چوب صندل",
+    "collection": null,
     "name_en": "Green Irish Tweed",
     "name_fa": "گرین آیریش تویید",
     "gender": "Male",
@@ -3655,7 +3655,7 @@
     }
   },
   {
-    "brand": "ورساچه",
+    "brand": "ریحان",
     "collection": "رازیانه",
     "name_en": "pour Homme",
     "name_fa": "پورهوم",
@@ -6322,7 +6322,7 @@
   },
   {
     "brand": "ورساچه",
-    "collection": "رازیانه",
+    "collection": null,
     "name_en": "Pour Homme",
     "name_fa": "پورهوم",
     "gender": "Male",
