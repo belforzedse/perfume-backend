@@ -146,3 +146,4 @@ fs.writeFileSync(
 );
 
 console.log(`\n🎉 Cleanup complete!`);
+
